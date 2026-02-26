@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background-color: white;
+  transition: 0.2s;
+}
+
+.buttons button:hover {
+  background-color: #ddd;
+}
+
+#results {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+#winner {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 15px;
+}
